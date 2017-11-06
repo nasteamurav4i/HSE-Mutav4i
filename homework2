@@ -1,5 +1,0 @@
-print("Введите слово на кириллице:")
-letter=input()
-for i in range(0, len(letter),2):
-               if letter[i]=='о' or letter[i]=='п' or letter[i]=='е' or letter[i]=='О' or letter[i]=='П' or letter[i]=='Е':
-                   print(letter[i])
