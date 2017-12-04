@@ -1,0 +1,14 @@
+with open("words.txt", "w", encoding="utf-8") as f:
+    print("Введите слова")
+    words=input()
+    if words=='':
+        print('ERROR')
+    else:
+        while words!='':
+            if len(words)>5:
+                f.write(words)
+                f.write('\n')
+            words=input()
+            if len(words)==0:
+                break
+print('DONE')
