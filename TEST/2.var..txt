@@ -1,4 +1,4 @@
-1)
+п»ї1)
  with open("Ozhegov.txt", "r", encoding = "utf-8")as file:
     for line in file:
         word = line.split("|")
@@ -8,7 +8,7 @@
 2)
 a = []
 with open("Ozhegov.txt", "r", encoding = "utf-8")as f:
-    print("Количество слов,которые имеют антонимы равно:")
+    print("РљРѕР»РёС‡РµСЃС‚РІРѕ СЃР»РѕРІ,РєРѕС‚РѕСЂС‹Рµ РёРјРµСЋС‚ Р°РЅС‚РѕРЅРёРјС‹ СЂР°РІРЅРѕ:")
     for line in f:
         word = line.split("|")
         if word[2] != "":
